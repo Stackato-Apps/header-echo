@@ -1,6 +1,6 @@
 applications:
 - name: header-echo
-  mem: 32M
+  memory: 32M
   stackato:
     env:
       GOVERSION:
