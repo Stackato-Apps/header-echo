@@ -1,9 +1,5 @@
 applications:
 - name: header-echo
+  buildpack: https://github.com/cloudfoundry/go-buildpack
   memory: 32M
-  stackato:
-    env:
-      GOVERSION:
-        default: 1.4
-    ignores:
-    - .git
+  stack: cflinuxfs2
